@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="shortcut icon" href="images/favicon.png">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <title>StartUp Club CVHS</title>
+     <link rel="icon" type="image/png" href="/images/favicon.png">
+</head>
+
+<body>
+
+     <header>
+          <div class="hcont">
+               <a href='/' class="logo">
+                    <img src="/images/logo.png" alt="logo">
+               </a>
+               <nav class="mnav">
+                    <a id='home' style="font-family: 'Open Sans', sans-serif;" href="">Home</a>
+                    <a id='aboutus'style="font-family: 'Open Sans', sans-serif;">About Us</a>
+                    <a style="font-family: 'Open Sans', sans-serif;">Meeting Info</a>
+                    <a style="font-family: 'Open Sans', sans-serif;">Projects</a>
+                    <a style="font-family: 'Open Sans', sans-serif;">Resources</a>
+                    
+               </nav>
+               
+          </div>
+     </header>
+     <div class="cta">
+          <div class="ctat">
+               <h1 style="font-family: 'Noto Sans', sans-serif;">StartUp</h1>
+               <p id="b" style="font-family: 'Open Sans', sans-serif;">Facilitating the next generation of success</p>
+          </div>
+          <div class="ctab">
+               <a id="aboutusb" style="font-family: 'Open Sans', sans-serif;">About Us</a>
+          </div>
+     </div>
+     <div class="desch" style="font-family: 'Noto Sans', sans-serif;">
+          <center>
+               <p> Our goal as StartUp Club is to teach coding, engineering, business, and marketing skills through creating a student led start-up.</p>
+          </center>
+     </div>
+     <span id='scroll' class="material-icons">expand_more</span>
+     <div style="font-family:'Open Sans', sans-serif;" class="about">
+          <h1>Who We Are</h1><h1>What we Do</h1>
+          <p>We are a group of future leaders, engineers, designer, and entrepeneurs that our sharing our skills and knowledge to each other in a peer to peer learning enviroment.</p> 
+          <p>Our goal as StartUp Club is to teach coding, engineering, business, and marketing skills through creating a student led startup. We plan on taking a product through revision and design, creating a website, exploring different ways to market a product, and raising money for charity.</p>
+     </div>
+     <div class="line"></div>
+     <div class="links">
+          <div class="btmnav"></div>
+     </div>
+     <script>
+          
+          document.querySelector("#aboutus").addEventListener('click',scroll);
+          document.querySelector("#scroll").addEventListener('click',scroll);
+          document.querySelector("#aboutusb").addEventListener('click',scroll);
+          function scroll(){
+               window.scrollTo(0, window.innerHeight - 80);
+          }
+     </script>
+</body>

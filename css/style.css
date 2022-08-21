@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap");
+
+* {
+  scroll-behavior: smooth;
+  top: 0;
+  right: 0;
+  margin: 0;
+}
+body {
+  background: url("../images/grid.png") 100vh;
+  background-attachment: fixed;
+  height: 120vh;
+}
+header {
+  width: 100%;
+  height: 80px;
+  z-index: 1;
+  position: fixed;
+  background: #ffff;
+}
+.hcont {
+  width: 100vw;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  z-index: 20;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffff;
+  box-shadow: 0px 1px 15px rgba(187, 187, 187, 0.533);
+}
+
+.logo {
+  width: 256px;
+  height: 44px;
+  float: left;
+  cursor: pointer;
+  background: #ffffff;
+  cursor: none;
+}
+.logo a{
+     text-decoration: none;
+     color: #000000;   
+     font-size: 16px;
+     font-family: "Open Sans", sans-serif 600;
+      font-weight: 700;
+     line-height: 80px;
+      background: #ffff;
+     cursor: none;
+   }
+.logo:hover {
+  cursor: pointer;
+}
+
+.mnav {
+  float: right;
+  position: relative;
+  padding-right: 50px;
+  background: #ffff;
+}
+.mnav a {
+  text-decoration: none;
+  color: #000000;
+  padding: 0 2vw;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif 600;
+  font-weight: 700;
+  line-height: 80px;
+  background: #ffff;
+  cursor: none;
+}
+#home {
+  color: #7a0dd3;
+}
+.mnav a:hover {
+  cursor: pointer;
+  color: #7a0dd3;
+}
+.scont {
+  width: 275px;
+  height: 36px;
+  position: relative;
+  background: rgba(179, 191, 201, 0.15);
+  box-sizing: border-box;
+  line-height: 33px;
+  padding-left: 37px;
+  border-radius: 50px;
+  margin-left: 10px;
+  content: "";
+  right: 10px;
+  background-size: 100% 100%;
+}
+
+.scont input {
+  color: #000000;
+  position: relative;
+  top: -13px;
+  width: 196 px;
+  border: transparent;
+  font-size: 12px;
+  background: transparent;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  margin: 0;
+  padding: 9.5px;
+}
+.scont input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+.scont img {
+  
+  background: transparent;
+  height: 17px;
+  border: transparent;
+  padding: 9.5px;
+  right: 10px;
+  cursor: none;
+}
+.scont img:hover {
+  cursor: pointer;
+}
+.lors {
+  float: right;
+  margin: 0;
+  padding-right: 50px;
+  display: block;
+  background: white;
+}
+.login {
+  color: #7a0dd3;
+  float: right;
+  width: 110 px;
+  cursor: none;
+  height: 36 px;
+  font-size: 16px;
+  background: rgb(244, 245, 247);
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 25px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 25px;
+  padding-right: 25px;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.login:hover {
+  background: #cccccc;
+  cursor: pointer;
+}
+.signup {
+  color: #000000;
+  background: #ffff;
+  float: right;
+  padding-right: 25px;
+  width: 110 px;
+  cursor: none;
+  height: 36 px;
+  font-size: 16px;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 36px;
+  display: block;
+  border-radius: 25px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.signup:hover {
+  background: #cccccc;
+  cursor: pointer;
+}
+.line {
+  background: url("../images/purpleline.png") no-repeat center center;
+  background-size: cover;
+
+  height: 100vh;
+}
+#scroll {
+  position: absolute;
+  top: 95vh;
+  font-size: 5vh;
+  left: calc(50vw - 2.5vh);
+  color: #cccccc;
+  cursor: pointer;
+}
+.links {
+  background: #420873;
+  min-height: calc(125vh - 80px);
+  background-attachment: fixed;
+}
+.cta {
+  position: absolute;
+  top: 15vh;
+  left: 15vw;
+  width: 410px;
+}
+.ctat {
+  background: rgba(255, 255, 255, 0.87);
+  border-radius: 25px;
+  box-shadow: 5px 20px 25px rgba(175, 175, 175, 0.699);
+  padding: 15px;
+  overflow: auto;
+  text-align: center;
+}
+.ctab {
+  margin-top: 5vh;
+  text-align: center;
+}
+.ctab a {
+  background: rgb(244, 245, 247);
+  padding: 10px 30px;
+  border-radius: 25px;
+  border: 0px;
+  box-shadow: 5px 20px 25px rgba(175, 175, 175, 0.699);
+  font-size: 20px;
+  color: #7a0dd3;
+  font-weight: bold;
+  cursor: pointer;
+}
+.ctab a:hover {
+  background: #cccccc;
+  cursor: pointer;
+}
+
+.ctat h1 {
+  color: #7a0dd3;
+  font-size: 40px;
+  font-weight: bold;
+}
+.ctat p {
+  color: #420873;
+  font-size: 25px;
+  font-weight: bold;
+}
+.about {
+  position: absolute;
+  top: 100vh;
+  left: 0;
+  color: #ffff;
+  display: flex;
+  background: #7a0dd3;
+  font-size: 2vh;
+  height: calc(100vh - 80px);
+  align-items: center;
+  justify-content: center;
+}
+#a {
+  margin-left: 3vw;
+}
+.quotes #b {
+  margin-left: auto;
+  margin-right: auto;
+}
+#c {
+  margin-right: 3vw;
+}
+.desc {
+  min-height: calc(100vh - 80px);
+
+}
+.btmnav {
+  height: 25vh;
+  background: #420873;
+}
+.desch {
+  background: rgba(175, 175, 175, 0.69);
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffff;
+  padding: 20px 30px;
+  top: 75%;
+  border-radius: 25px;
+  border: 0px;
+  right: 10%;
+  width: 40%;
+}
+
+
