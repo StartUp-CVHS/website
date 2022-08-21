@@ -25,4 +25,4 @@ window.addEventListener("scroll", function(event){
           document.getElementById("home").style.color = "#000000";
           document.getElementById("aboutus").style.color = "#7a0dd3";
      }
-})
+}) 
