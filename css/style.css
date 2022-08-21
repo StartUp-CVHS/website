@@ -70,9 +70,6 @@ header {
   background: #ffff;
   cursor: none;
 }
-#home {
-  color: #7a0dd3;
-}
 .mnav a:hover {
   cursor: pointer;
   color: #7a0dd3;
@@ -242,29 +239,31 @@ select:focus {
 .about {
   position: absolute;
   top: 100vh;
-  left: 0;
   color: #ffff;
   display: flex;
   background: #7a0dd3;
   font-size: 2vh;
-  height: calc(100vh - 80px);
-  align-items: center;
   justify-content: center;
 }
-#a {
-  margin-left: 3vw;
+.aboutcontent1{
+     margin-top:10vh ;
+     margin-bottom: 10vh;
+     margin-left:4vw ;
+     margin-right: 4vw;
+     width: 42vw;
 }
-.quotes #b {
-  margin-left: auto;
-  margin-right: auto;
+.aboutcontent2{
+     margin-top:10vh;
+     margin-bottom: 10vh;
+     margin-left:4vw ;
+     margin-right: 4vw;
+     width: 42vw;
+     
 }
-#c {
-  margin-right: 3vw;
+.about p{
+     margin-top:10px;
 }
-.desc {
-  min-height: calc(100vh - 80px);
 
-}
 .btmnav {
   height: 25vh;
   background: #420873;
