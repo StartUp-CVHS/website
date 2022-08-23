@@ -14,7 +14,7 @@ function scrollpage1() {
 }
 
 function scrollpage2() {
-     window.scrollTo(0, 1.25 * window.innerHeight - 80);
+     window.scrollTo(0, (2 * window.innerHeight - 160));
 }
 window.addEventListener("scroll", function (event) {
      var scroll = this.scrollY
