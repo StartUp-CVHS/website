@@ -5,6 +5,7 @@
   top: 0;
   right: 0;
   margin: 0;
+  padding: 0;
 }
 body {
   background: url("../images/grid.png") 100vh;
@@ -21,7 +22,8 @@ header {
 .hcont {
   width: 100vw;
   height: 100%;
-  margin: 0 auto;
+  top: 0;
+  margin: 0 0;
   display: flex;
   z-index: 20;
   position: relative;
@@ -32,12 +34,14 @@ header {
 }
 
 .logo {
+  top: 0;
   width: 256px;
-  height: 44px;
   float: left;
   cursor: pointer;
   background: #ffffff;
   cursor: none;
+  align-items: center;
+  justify-content: center;
 }
 .logo a{
      text-decoration: none;
@@ -52,7 +56,11 @@ header {
 .logo:hover {
   cursor: pointer;
 }
-
+.logo img{
+     height: 80px;
+     margin-left: 2vw;
+     margin-top: -5px;
+}
 .mnav {
   float: right;
   position: relative;
@@ -236,29 +244,59 @@ select:focus {
   font-size: 25px;
   font-weight: bold;
 }
-.about {
-  position: absolute;
+.about{
+     position: absolute;
   top: 100vh;
+  height: calc(100vh - 80px);
   color: #ffff;
-  display: flex;
   background: #7a0dd3;
   font-size: 2vh;
-  justify-content: center;
+  justify-content: center;  
+}
+.about img{
+     height: 45vh;
+     margin-top: 5vh;
+     box-shadow: 20px 25px 100px rgba(0, 0, 0, 0.699);
+}
+.aboutc {
+display: flex;
+ 
+}
+.about h1{
+     font-size: 2vw;
 }
 .aboutcontent1{
-     margin-top:10vh ;
-     margin-bottom: 10vh;
+     margin-top:5vh ;
+     margin-bottom: 5vh;
      margin-left:4vw ;
      margin-right: 4vw;
      width: 42vw;
 }
 .aboutcontent2{
-     margin-top:10vh;
-     margin-bottom: 10vh;
+     margin-top:5vh;
+     margin-bottom: 5vh;
      margin-left:4vw ;
      margin-right: 4vw;
      width: 42vw;
      
+}
+#scroll2{
+     position: absolute;
+     top: 85vh;
+     font-size: 5vh;
+     left: calc(50vw - 2.5vh);
+     color: #cccccc;
+     cursor: pointer;
+}
+.meetingtime{
+     position: absolute;
+     margin-top:calc(205vh - 80px);
+     padding-bottom: 5vh;
+     color: #ffff;
+     background: #420873;
+     left: 0;
+     font-size: 2.5vh;
+     height: 20vh;
 }
 .about p{
      margin-top:10px;
@@ -281,5 +319,3 @@ select:focus {
   right: 10%;
   width: 40%;
 }
-
-
