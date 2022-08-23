@@ -282,7 +282,7 @@ display: flex;
 }
 #scroll2{
      position: absolute;
-     top: 85vh;
+     top: 83vh;
      font-size: 5vh;
      left: calc(50vw - 2.5vh);
      color: #cccccc;
@@ -290,10 +290,11 @@ display: flex;
 }
 .meetingtime{
      position: absolute;
-     margin-top:calc(205vh - 80px);
+     margin-top:calc(200vh - 80px);
+     padding-top: 5vh;
      padding-bottom: 5vh;
      color: #ffff;
-     background: #420873;
+     background: #262254;
      left: 0;
      font-size: 2.5vh;
      height: 20vh;
@@ -301,9 +302,27 @@ display: flex;
 .about p{
      margin-top:10px;
 }
+.projects{
+    position: absolute;
+    margin-top:calc(230vh - 80px);
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    color: #ffff;
+    background: #9A77CF;
+    left: 0;
+    font-size: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+
+}
+.projects p{
+  margin-top: 2vh;
+}
 
 .btmnav {
-  height: 25vh;
+  height: 2500vh;
   background: #420873;
 }
 .desch {
