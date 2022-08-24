@@ -135,52 +135,7 @@ select:focus {
   display: block;
   background: white;
 }
-.login {
-  color: #7a0dd3;
-  float: right;
-  width: 110 px;
-  cursor: none;
-  height: 36 px;
-  font-size: 16px;
-  background: rgb(244, 245, 247);
-  box-sizing: border-box;
-  text-align: center;
-  line-height: 36px;
-  border-radius: 25px;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  padding-left: 25px;
-  padding-right: 25px;
-  -webkit-text-size-adjust: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-.login:hover {
-  background: #cccccc;
-  cursor: pointer;
-}
-.signup {
-  color: #000000;
-  background: #ffff;
-  float: right;
-  padding-right: 25px;
-  width: 110 px;
-  cursor: none;
-  height: 36 px;
-  font-size: 16px;
-  box-sizing: border-box;
-  text-align: center;
-  line-height: 36px;
-  display: block;
-  border-radius: 25px;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  padding-left: 25px;
-  padding-right: 25px;
-}
-.signup:hover {
-  background: #cccccc;
-  cursor: pointer;
-}
+
 .line {
   background: url("../images/purpleline.png") no-repeat center center;
   background-size: cover;
@@ -196,9 +151,10 @@ select:focus {
   cursor: pointer;
 }
 .links {
+  position: absolute;
   background: #420873;
-  min-height: calc(125vh - 80px);
-  background-attachment: fixed;
+  margin-top: 380vh;
+   
 }
 .cta {
   position: absolute;
@@ -249,7 +205,7 @@ select:focus {
   top: 100vh;
   height: calc(100vh - 80px);
   color: #ffff;
-  background: #7a0dd3;
+  background: #262254;
   font-size: 2vh;
   justify-content: center;  
 }
@@ -294,7 +250,7 @@ display: flex;
      padding-top: 5vh;
      padding-bottom: 5vh;
      color: #ffff;
-     background: #262254;
+     background: #7a0dd3;
      left: 0;
      font-size: 2.5vh;
      height: 20vh;
@@ -308,7 +264,7 @@ display: flex;
     padding-top: 5vh;
     padding-bottom: 5vh;
     color: #ffff;
-    background: #9A77CF;
+    background: #7c5295;
     left: 0;
     font-size: 4vh;
     display: flex;
@@ -317,12 +273,26 @@ display: flex;
     height: 50vh;
 
 }
+.resources{
+  position: absolute;
+  margin-top:278vh;
+  color: #ffff;
+  background: #9A77CF;
+  left: 0;
+  font-size: 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 80px);
+
+}
 .projects p{
   margin-top: 2vh;
 }
 
 .btmnav {
-  height: 2500vh;
+  
+  height: 250vh;
   background: #420873;
 }
 .desch {
