@@ -1,6 +1,6 @@
 document.querySelector("#home").addEventListener('click', scrollpage0);
 document.querySelector("#aboutus").addEventListener('click', scrollpage1);
-document.querySelector("#aboutusb").addEventListener('click', scrollpage1);
+document.querySelector("#aboutusb").addEventListener('click', scrollpage1s);
 document.querySelector("#meetinginfo").addEventListener('click', scrollpage2);
 document.querySelector("#projectb").addEventListener('click', scrollpage3);
 document.querySelector("#resourcesb").addEventListener('click', scrollpage4);
@@ -20,6 +20,9 @@ function scrollpage0() {
 function scrollpage1() {
      window.scrollTo(0, window.innerHeight - 80);
      document.querySelector(".mnav").classList.toggle('nav-active')
+}
+function scrollpage1s() {
+     window.scrollTo(0, window.innerHeight - 80);
 }
 function scrollpage2() {
      window.scrollTo(0, (2 * window.innerHeight - 160));
