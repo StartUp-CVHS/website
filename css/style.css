@@ -207,12 +207,12 @@ display: flex;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 62vh;
 
 }
 .resources{
   position: absolute;
-  margin-top:calc(290vh - 80px);
+  margin-top:calc(292vh - 80px);
   color: #ffff;
   background: #9A77CF;
   left: 0;
@@ -291,7 +291,7 @@ display: flex;
 }
 #scroll3{
      position: absolute;
-     top: calc(285vh - 80px);
+     top: calc(287vh - 80px);
      font-size: 5vh;
      left: calc(50vw - 2.5vh);
      color: #cccccc;
@@ -315,7 +315,7 @@ display: flex;
 }
 #scrollup3{
      position: absolute;
-     top: calc(290vh - 80px);
+     top: calc(292vh - 80px);
      font-size: 5vh;
      left: calc(50vw - 2.5vh);
      color: #cccccc;
